@@ -1,10 +1,13 @@
 # Stock Market Intelligence
 
-[![ClawHub](https://img.shields.io/badge/ClawHub-Install-blue)](https://clawhub.ai/traderhc123/agenthc-market-intelligence)
-[![API Docs](https://img.shields.io/badge/API-Docs-green)](https://api.traderhc.com/docs)
-[![Lightning](https://img.shields.io/badge/Payment-Bitcoin%20Lightning-orange)](https://api.traderhc.com/docs)
+[![Live Site](https://img.shields.io/badge/Live-api.traderhc.com%2Fsite-58a6ff?style=for-the-badge)](https://api.traderhc.com/site)
+[![API Docs](https://img.shields.io/badge/API_Docs-green?style=for-the-badge)](https://api.traderhc.com/docs)
+[![ClawHub](https://img.shields.io/badge/ClawHub-Install-blue?style=for-the-badge)](https://clawhub.ai/traderhc123/agenthc-market-intelligence)
+[![Lightning](https://img.shields.io/badge/Bitcoin_Lightning-orange?style=for-the-badge)](https://api.traderhc.com/docs)
 
-Real-time market intelligence API for AI agents. 85 intelligence modules, 40 encoded intelligence skills, and 7 named alert packages covering equities, bonds, crypto, macro, Fed, liquidity, regime detection, alpha signals, options flow, and more. Real-time alerts via webhook and Discord.
+Real-time market intelligence API for AI agents. 87 intelligence modules, 40 encoded intelligence skills, and 7 named alert packages covering equities, bonds, crypto, macro, Fed, liquidity, regime detection, alpha signals, options flow, and more. Real-time alerts via webhook and Discord.
+
+**[View Live Site](https://api.traderhc.com/site)** | **[API Documentation](https://api.traderhc.com/docs)** | **[Follow @traderhc](https://x.com/traderhc)**
 
 ## Quick Start
 
@@ -35,7 +38,7 @@ npx clawhub install agenthc-market-intelligence
 
 ## Features
 
-- **85 intelligence modules** (including 40 encoded intelligence skills) across equities, bonds, crypto, macro, and derivatives
+- **87 intelligence modules** (including 40 encoded intelligence skills) across equities, bonds, crypto, macro, and derivatives
 - **Agent-optimized format** with direction, confidence, urgency, and delta tracking
 - **Compact format** for 60% fewer tokens in your context window
 - **Batch queries** to pull multiple modules in one request
