@@ -423,7 +423,7 @@ Pre-scored, historically-calibrated pattern recognition. Each skill returns stru
 | risk_drawdown_expectation | Institutional | Risk-adjusted drawdown estimates with Kelly sizing |
 | bond_yield_regime | Institutional | Yield regime classification with equity/credit implications |
 | geopolitical_risk_premium | Institutional | Composite geopolitical risk premium in basis points |
-| vix_regime_intelligence | Institutional | VIX regime (7 levels) with 30d forward SPX returns |
+| vix_regime_intelligence | **Free** | VIX regime (7 levels) with 30d forward SPX returns |
 | yield_curve_stress_signal | Institutional | 2s10s recession probability, un-inversion alert |
 | commodity_macro_signal | Institutional | Gold/Oil/Copper cross-commodity macro regime |
 | dxy_impact_matrix | Institutional | Dollar regime with cross-asset impact mapping |
