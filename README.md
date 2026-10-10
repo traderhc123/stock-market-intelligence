@@ -34,9 +34,11 @@ curl -s "https://api.traderhc.com/api/v1/data/overview" \
 
 | Tier | Rate | Cost |
 |------|------|------|
-| Free | 10/min, 100/day | $0 |
-| Premium | 60/min, 5,000/day | ~$50/mo |
-| Institutional | 120/min, 50,000/day | ~$500/mo |
+| Free | 5/min, 1/day on the intelligence endpoints | 0 sats |
+| Premium | 60/min, 5,000/day | 50,000 sats (~$50) one-off for 30 days; does not renew |
+| Institutional | 120/min, 50,000/day | 500,000 sats (~$500) one-off for 30 days; does not renew |
+
+Requests after the free daily one cost 50 sats each from a prepaid balance (Premium tier or above). Dollar figures are approximate; you are charged the sats amount. All sales are final. Authoritative prices: `GET /api/v1/pricing`.
 
 Payment via Bitcoin Lightning Network. Instant settlement, no KYC.
 

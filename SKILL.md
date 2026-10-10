@@ -50,8 +50,8 @@ export AGENTHC_API_KEY=$(bash scripts/setup.sh --auto)
 | Tier | Coverage | Cost |
 |------|----------|------|
 | **Free** | Market overview, educational content | $0 |
-| **Premium** | Equities, fixed income, macro, crypto, volatility | ~$50/mo |
-| **Institutional** | Full platform access with advanced analytics | ~$500/mo |
+| **Premium** | Equities, fixed income, macro, crypto, volatility | 50,000 sats (~$50) for 30 days, one-off |
+| **Institutional** | Full platform access with advanced analytics | 500,000 sats (~$500) for 30 days, one-off |
 
 See [api.traderhc.com/docs](https://api.traderhc.com/docs) for the full endpoint catalog.
 
@@ -113,9 +113,11 @@ For per-request payment without registration:
 
 | Tier | Rate | Cost |
 |------|------|------|
-| Free | 10/min, 100/day | $0 |
-| Premium | 60/min, 5,000/day | ~$50/mo (50K sats) |
-| Institutional | 120/min, 50,000/day | ~$500/mo (500K sats) |
+| Free | 5/min, 1/day on the intelligence endpoints | 0 sats |
+| Premium | 60/min, 5,000/day | 50,000 sats (~$50) one-off for 30 days; does not renew |
+| Institutional | 120/min, 50,000/day | 500,000 sats (~$500) one-off for 30 days; does not renew |
+
+Requests after the free daily one cost 50 sats each from a prepaid balance (Premium tier or above). Dollar figures are approximate; you are charged the sats amount. All sales are final. Authoritative prices: `GET /api/v1/pricing`.
 
 Payment via Bitcoin Lightning Network. Instant settlement, no KYC.
 
